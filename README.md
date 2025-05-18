@@ -43,6 +43,12 @@ venv\Scripts\activate  # On Windows
 pip install -r requirements.txt
 ```
 
+6. Create .env file and add your Google Gemini key from Google AI Studio:
+```bash
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
+GOOGLE_API_KEY=AIzaSyCNVqbXjICR2iTuX485TiBHq3hJmhrBYh0
+```
+
 ## Running the project
 Once you have set up the project, you can run the project using the ADK CLI: 
 

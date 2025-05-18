@@ -1,3 +1,5 @@
 .venv
 Tutorial/multi_tool_agent/__pycache__
 Tutorial/multi_tool_agent/.env
+.python-version
+.DS_Store
