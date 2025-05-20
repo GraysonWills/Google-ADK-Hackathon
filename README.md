@@ -46,7 +46,7 @@ pip install -r requirements.txt
 6. Create .env file and add your Google Gemini key from Google AI Studio:
 ```bash
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
-GOOGLE_API_KEY=AIzaSyCNVqbXjICR2iTuX485TiBHq3hJmhrBYh0
+GOOGLE_API_KEY=YOUR_API_KEY_HERE
 ```
 
 ## Running the project
