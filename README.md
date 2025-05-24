@@ -48,7 +48,7 @@ pip install -r requirements.txt
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
 GOOGLE_API_KEY=YOUR_API_KEY_HERE
 ```
-
+# This is one way of running it -- But we want to over the full UI so ignore this
 ## Running the project
 Once you have set up the project, you can run the project using the ADK CLI: 
 
@@ -57,3 +57,29 @@ adk web
 ```
 This command will start the web application, and you should be able to access it through your browser at the URL displayed in the terminal (typically http://localhost:8080).
 
+## Install custom UI
+## Prerequisite:
+
+- **Install [Angular CLI](https://angular.dev/tools/cli)**
+
+- **Install [NodeJs](https://nodejs.org/en)**
+
+- **Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)**
+
+- **Install [google-adk (Python)](https://github.com/google/adk-python)** 
+### Now:
+- cd into `agent-custom-ui/adk-web` 
+```bash 
+sudo npm install
+```
+- from the adk-web dir, run
+```bash
+npm run serve --backend=http://localhost:8000
+```
+and from the main dir (aka Google-ADK-Hackathon), run 
+```bash
+adk api_server --allow_origins=http://localhost:4200 
+```
+
+
+More information in the readme in `agent-custom-ui/adk-web`
