@@ -1,0 +1,38 @@
+{
+  "state": {
+    "therapist_profile" : {
+      "license_type": "Clinical Psychologist",
+      "specializations": ["Cognitive Behavioral Therapy", "Trauma", "Anxiety"],
+      "analysis_preferences": {
+        "audio_metrics": ["tone", "pitch", "speech_rate", "volume", "pauses"],
+        "video_metrics": ["facial_expressions", "body_language", "eye_contact", "gestures"],
+        "emotional_indicators": ["stress", "anxiety", "depression", "engagement"]
+      },
+      "assessment_tools": [],
+      "treatment_approaches": [],
+      "contraindications": [],
+      "office":
+      {
+          "location_type": "clinic",
+          "address": "123 Wellness Ave, Suite 200, San Francisco, CA 94104, United States",
+          "session_mode": "hybrid"
+      }    
+    },
+    "session_data": {},
+    "patient_id": "",
+    "session_type": "",
+    "session_date": "",
+    "session_start_time": "",
+    "session_duration": "",
+    "audio_analysis_results": "",
+    "video_analysis_results": "",
+    "combined_sentiment_score": "",
+    "emotional_state_assessment": "",
+    "behavioral_patterns": "",
+    "treatment_progress": "",
+    "next_session_recommendations": "",
+    "session_notes": "",
+    "follow_up_actions": "",
+    "risk_assessment_status": "",
+    "initialized": false
+  }}
