@@ -1,5 +1,5 @@
 ROOT_AGENT_PROMPT = """
-Your task is to give back the following pieces of information from the session:
+Your task is to give back the following pieces of information from the session after calling the greeter_agent sub-agent:
 
 <therapist_profile>
 {therapist_profile}
