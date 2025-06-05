@@ -42,4 +42,13 @@ SESSION_NOTES = "session_notes"
 FOLLOW_UP_ACTIONS = "follow_up_actions"
 RISK_ASSESSMENT = "risk_assessment_status"
 
+#Audio Analysis Constants
+AUDIO_TRANSCRIPTION = "audio_transcription"
+PITCH_OF_SPEECH = "pitch_of_speech"
+EMOTIONAL_STATE_FROM_PITCH = "emotional_state_from_pitch"
+WORD_PITCH_EMPHASIS = "word_pitch_emphasis"
+SPEED_OF_SPEECH = "speed_of_speech"
+EMOTIONAL_STATE_FROM_SPEED = "emotional_state_from_speed"
+WORD_SPEED_EMPHASIS = "word_speed_emphasis"
+
 THERAPIST_INITIALIZED = "initialized"

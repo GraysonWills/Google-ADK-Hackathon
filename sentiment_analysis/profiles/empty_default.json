@@ -34,5 +34,13 @@
     "session_notes": "",
     "follow_up_actions": "",
     "risk_assessment_status": "",
-    "initialized": false
+    "initialized": false, 
+    "speed_of_speech": "",
+    "emotional_state_from_speech": "",
+    "word_speed_emphasis": "",
+    "pitch_of_speech": "",
+    "emotional_state_from_pitch": "",
+    "word_pitch_emphasis": "",
+    "audio_transcription": "",
+    "emotional_state": ""
   }}
