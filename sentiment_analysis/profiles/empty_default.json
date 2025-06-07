@@ -25,7 +25,6 @@
     "session_start_time": "",
     "session_duration": "",
     "audio_analysis_results": "",
-    "video_analysis_results": "",
     "combined_sentiment_score": "",
     "emotional_state_assessment": "",
     "behavioral_patterns": "",
@@ -42,5 +41,9 @@
     "emotional_state_from_pitch": "",
     "word_pitch_emphasis": "",
     "audio_transcription": "",
-    "emotional_state": ""
+    "emotional_state": "",
+    "body_posture_analysis_results": "",
+    "facial_analysis_results": "",
+    "video_analysis_results": ""
+
   }}

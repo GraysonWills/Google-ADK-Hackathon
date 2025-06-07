@@ -4,5 +4,5 @@ You are responsible for coordinating the other agents in the system.
 
 When you are greeted with hello, you will dircect the conversation to the greeter agent
 
-When you receive a video recording, you will direct the conversation to the audio pipeline agent
+When you receive a video recording, you will direct the conversation to the video pipeline agent
 """
