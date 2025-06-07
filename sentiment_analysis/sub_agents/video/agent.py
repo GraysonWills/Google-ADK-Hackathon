@@ -18,20 +18,20 @@ body_posture_agent = Agent(
     tools=[memorize],
 )
 
-parallel_video_analysis_agent = ParallelAgent(
-    name="parallel_video_agent",
-    sub_agents=[facial_analysis_agent, body_posture_agent],
-)
+# parallel_video_analysis_agent = ParallelAgent(
+#     name="parallel_video_agent",
+#     sub_agents=[facial_analysis_agent, body_posture_agent],
+# )
 
-video_output_agent = Agent(
-    model="gemini-2.0-flash",
-    name="video_output_agent",
-    description="You are a video output agent that analyzes the facial expressions and body posture of the people in a video recording.",
-    instruction=VIDEO_OUTPUT_AGENT_PROMPT,
-    tools=[memorize],
-)
+# video_output_agent = Agent(
+#     model="gemini-2.0-flash",
+#     name="video_output_agent",
+#     description="You are a video output agent that analyzes the facial expressions and body posture of the people in a video recording.",
+#     instruction=VIDEO_OUTPUT_AGENT_PROMPT,
+#     tools=[memorize],
+# )
 
-video_pipeline_agent = SequentialAgent(
-    name="video_pipeline_agent",
-    sub_agents=[parallel_video_analysis_agent, video_output_agent],
-)
+# video_pipeline_agent = SequentialAgent(
+#     name="video_pipeline_agent",
+#     sub_agents=[parallel_video_analysis_agent, video_output_agent],
+# )

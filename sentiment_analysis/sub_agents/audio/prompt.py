@@ -51,7 +51,7 @@ You are a professional emotional therapist capable of combining several aspects 
 You are to construct your output from the following keys:
 
 **Speed of Speech**
-<speed_of_speech>
+<speed_of_speech>–
 {speed_of_speech}
 </speed_of_speech>
 
