@@ -35,7 +35,7 @@
     "risk_assessment_status": "",
     "initialized": false, 
     "speed_of_speech": "",
-    "emotional_state_from_speech": "",
+    "emotional_state_from_speed": "",
     "word_speed_emphasis": "",
     "pitch_of_speech": "",
     "emotional_state_from_pitch": "",
@@ -44,6 +44,7 @@
     "emotional_state": "",
     "body_posture_analysis_results": "",
     "facial_analysis_results": "",
-    "video_analysis_results": ""
+    "video_analysis_results": "",
+    "schedule": ""
 
   }}

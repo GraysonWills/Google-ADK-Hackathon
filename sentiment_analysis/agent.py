@@ -2,6 +2,7 @@ from google.adk.agents import Agent, ParallelAgent, SequentialAgent
 from sentiment_analysis.tools.load import _load_precreated_itinerary
 from sentiment_analysis.prompt import ROOT_AGENT_PROMPT, TOTAL_ANALYSIS_AGENT_PROMPT
 from sentiment_analysis.sub_agents.greeter.agent import greeter_agent
+from sentiment_analysis.sub_agents.scheduler.agent import scheduler_agent
 from sentiment_analysis.sub_agents.audio.agent import (
   
     audio_pitch_agent,
@@ -36,7 +37,7 @@ total_output_agent = Agent(
 
 sequential_analysis_agent = SequentialAgent(
     name="sequential_analysis_agent",
-    sub_agents=[parallel_analysis_agent, total_output_agent],
+    sub_agents=[parallel_analysis_agent, total_output_agent, scheduler_agent],
 )
 
 root_agent = Agent(
