@@ -1,0 +1,29 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches:
+      - master-test
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ secrets.GCP_PROJECT_ID }}
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Deploy to Cloud Run
+        uses: google-github-actions/deploy-cloudrun@v2
+        with:
+          service: adk-web-app
+          region: us-east1
+          source: .
+          allow-unauthenticated: true
+          port: 8000
