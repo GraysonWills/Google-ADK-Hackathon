@@ -30,5 +30,4 @@ jobs:
           service: adk-web-app
           region: us-east1
           source: .
-          allow-unauthenticated: true
-          port: 8000
+          flags: '--allow-unauthenticated'
