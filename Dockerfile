@@ -6,6 +6,6 @@ RUN pip install -r requirements.txt
 WORKDIR /app
 COPY . /app
 
-EXPOSE 8000
+EXPOSE 8080
 
-CMD ["adk", "web", "--host", "0.0.0.0", "--port", "8000"]
+CMD adk web --host 0.0.0.0 --port $PORT
