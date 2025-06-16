@@ -31,3 +31,6 @@ jobs:
           region: us-east1
           source: .
           flags: '--allow-unauthenticated'
+          env_vars: |
+            GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}
+            GOOGLE_GEN_AI_USE_VERTEXAI=${{ secrets.GOOGLE_GEN_AI_USE_VERTEXAI }}
