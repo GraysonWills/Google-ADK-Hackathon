@@ -47,15 +47,20 @@ You are to construct your output from the following keys:
 {audio_transcription}
 </audio_transcription>
 
-**FacialAnalysisResult**:
+**Facial Analysis Result**:
 <facial_analysis_results>
 {facial_analysis_results}
 </facial_analysis_results>
 
-**BodyPostureAnalysisResult**:
+**Body Posture Analysis Result**:
 <body_posture_analysis_results>
 {body_posture_analysis_results}
 </body_posture_analysis_results>
+
+Your output should be in the following format to the user:
+
+"Based on the full analysis that I have conducted, I believe the user is feeling {emotional_state}"
+"With this in mind, I would like to offer the following schedule for your therapy session: {schedule}"
 
 You are to output your answer back to the user in a human readable format, and also output the following key with the memorize tool:
 
