@@ -32,7 +32,7 @@ jobs:
           source: .
           flags: |
             --allow-unauthenticated
-            --cpu: 2000m
+            --cpu=2
             --memory=8Gi
           env_vars: |
             GOOGLE_API_KEY=${{ secrets.GOOGLE_API_KEY }}
